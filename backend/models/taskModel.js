@@ -9,6 +9,7 @@ const getTasks = async () => {
   return res.rows;
 };
 
+
 //Write a comment describing what this function insersts a new task into the database
 const addTask = async (title, description) => {
   const res = await db.query(
@@ -19,3 +20,5 @@ const addTask = async (title, description) => {
 };
 
 module.exports = { getTasks, addTask };
+
+//i belive it returns the commands for a task? like in line 22
