@@ -5,3 +5,5 @@ CREATE TABLE IF NOT EXISTS tasks (
   is_complete BOOLEAN DEFAULT false,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+/*this creates a new table if there is not one 
