@@ -6,4 +6,4 @@ CREATE TABLE IF NOT EXISTS tasks (
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-/*this creates a new table if there is not one 
+//this creates a new table if there is not one 
