@@ -13,7 +13,7 @@ router.get("/", async (req, res) => {
 router.post("/", async (req, res) => {
   //there is a bug in line 15 you need to fix
   const { name, description } = req.body;
-  const task = await taskModel.addTask(title, description);
+  const task = await taskModel.addTask(Name, description);
   res.status(201).json(task);
 });
 //this route could possibly be to keeo the name and description for the title and put it somewhere 
